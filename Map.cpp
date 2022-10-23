@@ -38,6 +38,13 @@ int main()
     // }
 
     auto it = m.find(4);
+//     for (auto i = it; i != m.end(); i++)
+//     {
+//         cout << (*i).first << endl;
+//     }
+
+//     return 0;
+// }
     for (auto i = it; i != m.end(); i++)
     {
         cout << (*i).first << endl;
